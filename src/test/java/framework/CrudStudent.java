@@ -24,7 +24,7 @@ public class CrudStudent extends DriverFactory {
 		
 		driver=DriverFactory.getDriver();
 		driver.manage().window().maximize();
-		driver.get("http://testnode.devopsproj.com/student/");
+		driver.get("http://testhost.devopsprac.ml/student/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
